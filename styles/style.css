@@ -31,11 +31,35 @@ h2 {
   text-transform: uppercase;
 }
 
+/* ----- main content ----- */
+
+.first-section,
+.second-section,
+.third-section,
+article {
+  margin: 5%;
+  background-color: #eee8e5;
+  box-shadow: 0.5rem 1rem 0.8rem rgb(199, 199, 199);
+}
+
+p {
+  text-align: left;
+  padding: 2%;
+}
+
+/* ----- image ----- */
+
 img {
   border-radius: 50%;
   width: 38%;
   height: 38%;
-  align-content: center;
+  margin: auto;
 }
 
 /* ----- footer ----- */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
