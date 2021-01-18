@@ -25,10 +25,23 @@ body {
 
 /* ----- header ----- */
 
-h1,
+h1 {
+  display: inline-block;
+  font-size: 3.5rem;
+  letter-spacing: 0.5rem;
+}
+
 h2 {
   text-align: center;
   text-transform: uppercase;
+}
+
+.bug_two {
+  width: 15%;
+  height: 15%;
+  margin-left: 3rem;
+  display: inline-block;
+  margin-top: 1rem;
 }
 
 /* ----- main content ----- */
@@ -53,7 +66,7 @@ figure {
   text-align: center;
 }
 
-img {
+.bug_one {
   border-radius: 50%;
   width: 38%;
   height: 38%;
@@ -64,6 +77,11 @@ img {
 
 .media {
   text-align: center;
+}
+
+.media p {
+  text-align: center;
+  font-size: 0.12rem;
 }
 
 /* ----- footer ----- */
