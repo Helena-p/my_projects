@@ -48,8 +48,7 @@ h2 {
 
 .first-section,
 .second-section,
-.third-section,
-article {
+.third-section {
   margin: 5%;
   background-color: #eee8e5;
   box-shadow: 0.5rem 1rem 0.8rem rgb(199, 199, 199);
