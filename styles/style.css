@@ -60,6 +60,12 @@ img {
   box-shadow: 0.5rem 1rem 0.8rem rgb(199, 199, 199);
 }
 
+/* ----- video ----- */
+
+.media {
+  text-align: center;
+}
+
 /* ----- footer ----- */
 
 footer {
